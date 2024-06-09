@@ -9,7 +9,11 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${workspaceFolder}/main.go"
+            "program": "${workspaceFolder}/main.go",
+            "env": {
+                "Log_Type": "console",
+                "Env_Mode": "debug"
+            }
         }
     ]
 }

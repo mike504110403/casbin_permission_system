@@ -1,0 +1,198 @@
+[
+    {
+        "id": 1,
+        "name": "dashboard",
+        "title": "儀錶板",
+        "enable": true,
+        "permissions": {
+            "view": {
+                "title": "頁面檢視",
+                "enable": true
+            }
+        }
+    },
+    {
+        "id": 2,
+        "name": "vendorSystem",
+        "title": "廠商系統",
+        "enable": true,
+        "children": [
+            {
+                "id": 3,
+                "name": "vendorInfo",
+                "title": "廠商資訊",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "檢視",
+                        "enable": true
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "name": "fundsWallet",
+                "title": "資金錢包",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "name": "refundWallet",
+                "title": "退款錢包",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "name": "invoiceCheck",
+                "title": "發票核對",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "orderSystem",
+        "title": "訂單系統",
+        "enable": true,
+        "children": [
+            {
+                "id": 8,
+                "name": "orderManage",
+                "title": "訂單管理",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "name": "refund",
+                "title": "退款作業",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "manageSystem",
+        "title": "管理系統",
+        "enable": true,
+        "children": [
+            {
+                "id": 11,
+                "name": "userManage",
+                "title": "用戶管理",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            },
+            {
+                "id": 12,
+                "name": "permissionManage",
+                "title": "權限管理",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "gatherSystem",
+        "title": "歸集系統",
+        "enable": true,
+        "children": [
+            {
+                "id": 14,
+                "name": "gatherSchedule",
+                "title": "歸集排程作業",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            },
+            {
+                "id": 15,
+                "name": "gatherSetting",
+                "title": "歸集設定",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "walletSystem",
+        "title": "錢包系統",
+        "enable": true,
+        "children": [
+            {
+                "id": 17,
+                "name": "addressManage",
+                "title": "錢包地址管理",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            },
+            {
+                "id": 18,
+                "name": "consumePitManage",
+                "title": "燃燒池管理",
+                "enable": true,
+                "permissions": {
+                    "view": {
+                        "title": "頁面檢視",
+                        "enable": true
+                    }
+                }
+            }
+        ]
+    }
+]
